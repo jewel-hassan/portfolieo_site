@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --primaryColor: #FD6E0A;
+    
+}
+
+
+
+/* HEADER AND NAVIGATION STYLE */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 12rem;
+}
+
+.nav-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.primary-text{
+    color: var(--primaryColor);
+}
